@@ -1,0 +1,52 @@
+.book-container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: flex-start;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1000px;
+    flex-wrap: wrap;
+}
+
+.book-cover {
+    max-width: 200px;
+    flex-shrink: 0;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.book-details {
+    flex: 1;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.book-details p {
+    color: black;
+}
+
+.book-details button {
+    padding: 10px 20px;
+    background-color: #818588;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.book-details button:hover {
+    background-color: rgb(70, 74, 71);
+}
+
+.book-details a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.book-details a:hover {
+    text-decoration: underline;
+}

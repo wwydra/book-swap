@@ -1,0 +1,71 @@
+.log {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    margin-top: 20px;
+    color: rgb(70, 74, 71);
+    cursor: default;
+}
+
+.log-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.log-form div {
+    margin-bottom: 20px;
+}
+
+.log-form label {
+    font-size: 18px;
+    color: rgb(70, 74, 71);
+    margin-bottom: 10px;
+    display: block;
+    cursor: default;
+}
+
+.log-form input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.log-form button {
+    background-color: #818588;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.log-form button:hover {
+    background-color: rgb(70, 74, 71);
+}
+
+.log-p {
+    margin-top: 20px;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    font-size: 16px;
+    cursor: default;
+}
+
+.log-p a {
+    color: #818588;
+    text-decoration: none;
+}
+
+.log-p a:hover {
+    text-decoration: underline;
+}

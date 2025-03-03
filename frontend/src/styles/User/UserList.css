@@ -1,0 +1,42 @@
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-table th {
+    background-color: #818588;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    font-family: 'Cinzel', serif;
+    font-size: 18px;
+}
+
+.user-table td {
+    padding: 10px;
+    text-align: left;
+    border-top: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.user-table select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: white;
+    width: 100%;
+}
+
+.user-table select:disabled {
+    background-color: #f0f0f0;
+    cursor: not-allowed;
+}

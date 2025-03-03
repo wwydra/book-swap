@@ -1,0 +1,77 @@
+.exchange-sections {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.exchange-section {
+    margin-bottom: 40px;
+}
+
+.exchange-section-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+.exchange-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.exchange-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.exchange-item:last-child {
+    border-bottom: none;
+}
+
+.exchange-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    gap: 5px;
+}
+
+.exchange-link:hover {
+    opacity: 0.8;
+}
+
+.exchange-image {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.exchange-details {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.exchange-title {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+}
+
+.exchange-author {
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+}
+
+.no-exchanges {
+    color: #888;
+    font-size: 16px;
+    font-style: italic;
+}

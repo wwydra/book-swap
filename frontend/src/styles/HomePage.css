@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&family=Rozha+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Cinzel:wght@400..900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+header {
+    background: linear-gradient(135deg, #818588, lightgray);
+    height: 90px;
+    width: 100%;
+    position: relative;
+    border-bottom: 5px solid rgb(70, 74, 71);
+}
+
+body {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+h1 {
+    color: rgb(70, 74, 71);
+    text-align: center;
+    font-family: "Rozha One", serif;
+    text-shadow: 2px 2px white;
+    font-size: 50px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: default;
+}
+
+nav {
+    background-color: #818588;
+    padding: 0;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 5px solid rgb(70, 74, 71);
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.nav-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    color: #000000;
+    font-weight: bold;
+    font-family: "Cinzel", serif;
+    font-size: 18px;
+    height: 100%;
+}
+
+.nav-links a:hover {
+    background-color: rgb(70, 74, 71);
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin: 0 40px;
+}
+
+main h2 {
+    font-family: "Cinzel", serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.book-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.book-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.book-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.book-cover-main {
+    width: 100px;
+    height: auto;
+}
+
+.book-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-details a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.book-details h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.book-details p {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+    cursor: default;
+}
+
+.book-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: right;
+}
+
+.book-actions button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #818588;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.book-actions button:hover {
+    background-color: rgb(70, 74, 71);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.pagination button {
+    padding: 10px 20px;
+    background-color: #818588;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination span {
+    font-family: "Cinzel", serif;
+    font-size: 18px;
+    color: #333;
+    cursor: default;
+}
